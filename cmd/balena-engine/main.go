@@ -23,7 +23,7 @@ func main() {
 	command := filepath.Base(os.Args[0])
 
 	switch command {
-	case "balena", "balena-engine":
+	case "prtql", "prtql-engine":
 		docker.Main()
 	case "balenad", "balena-engine-daemon":
 		dockerd.Main()
