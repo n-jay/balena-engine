@@ -1,5 +1,7 @@
 <img src="docs/static_files/balena-engine.svg" alt="balenaEngine" width="50%" />
 
+[![make-master](https://github.com/n-jay/balena-engine/actions/workflows/main.yml/badge.svg)](https://github.com/n-jay/balena-engine/actions/workflows/main.yml)
+
 **moby-based container engine for IoT**
 
 ## Highlights
