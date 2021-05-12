@@ -1,8 +1,18 @@
-<img src="docs/static_files/balena-engine.svg" alt="balenaEngine" width="50%" />
+# PRTIQL Engine
+
+<p align="center" width="100%">
+    <img width="10%" src="logo.png"> 
+</p>
 
 [![make-master](https://github.com/n-jay/balena-engine/actions/workflows/main.yml/badge.svg)](https://github.com/n-jay/balena-engine/actions/workflows/main.yml)
 
-**moby-based container engine for IoT**
+This is the prototype moby-based container engine for running PRTQL applications
+
+## Disclaimer
+
+This project is still very much a work-in-progress and not intended for everyday use.
+
+Caution is adviced.
 
 ## Highlights
 
@@ -15,19 +25,11 @@
 
 ## Motivation
 
-balenaEngine is a container engine purpose-built for embedded and IoT use cases
-and compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine
+It has been purpose-built for improved performance and is 
+compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine
 supports container deltas for 10-70x more efficient bandwidth usage, has 3x
 smaller binaries, uses RAM and storage more conservatively, and focuses on
 atomicity and durability of container pulling.
-
-Since 2013, when we first ported Docker to ARMv6 and the Raspberry Pi,
-the balena team has been working in and around the Docker codebase.
-Meanwhile, having seen IoT devices used in production for tens of millions of
-hours, we’ve become intimately acquainted with the unique needs of the embedded world.
-So we built a container engine that runs Docker containers just as well,
-shares the Docker components that are needed for our use case, and is augmented
-with the IoT-specific features that we’ve built out over time.
 
 ## Transitioning from Docker CE
 
@@ -47,6 +49,4 @@ balenaEngine should be a drop-in replacement.
 
 ## License
 
-balenaEngine is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/balena-os/balena-engine/blob/master/LICENSE) for the full
-license text.
+PRTIQL Engine is licensed under the Apache License, Version 2.0.
