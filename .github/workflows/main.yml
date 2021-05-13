@@ -1,4 +1,4 @@
-name: make-master
+name: Build
 
 on:
   push:
